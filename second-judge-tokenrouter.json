@@ -1,0 +1,11 @@
+{
+  "status": "unavailable",
+  "provider": "tokenrouter",
+  "model": "deepseek/deepseek-v4.1-flash-1017-free",
+  "attempts": [
+    {"n": 1, "result": "TimeoutError after ~91s (read timed out)"},
+    {"n": 2, "result": "empty reply (finish_reason=length), retry with bigger budget, then TimeoutError"},
+    {"n": 3, "result": "TimeoutError (background retry, see /tmp/museum-judge2.log)"}
+  ],
+  "fallback": "Builder's own pairwise gate decides alone per the task's fallback rule; winner A 10/10 vs proxy top 10."
+}
